@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* Custom design tokens */
+:root {
+  --color-primary: #16a34a;
+  --color-primary-dark: #15803d;
+}
+
+/* Leaflet map fix */
+.leaflet-container {
+  z-index: 0;
+}
